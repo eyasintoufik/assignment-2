@@ -10,7 +10,7 @@ img {
   width: 100%;
 }
 body {
-  width: 100vw;
+  width: 100%;
 }
 .header {
   background: rgba(255, 144, 14, 0.1);
@@ -76,8 +76,9 @@ section, footer {
 /* section of featured start---------------------------- */
 .featured {
   display: flex;
-  margin: 0px 150px;
+  margin: 0px 220px;
   margin-bottom: 30px;
+  gap:30px;
 }
 .featured .featured_img {
   width: 60%;
@@ -136,7 +137,7 @@ section, footer {
 .features_items {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: calc(12%);
+  gap: calc(80%);
 }
 .items_list {
   background-color: white;
@@ -181,7 +182,8 @@ section, footer {
   border: 1px solid #ff900e;
   border-radius: 8px;
   text-align: center;
-  color:#727272
+  color:#727272; 
+  transition: width 2s, height 2s, transform 5s;
 }
 .box img {
   width: 45.22px;
@@ -194,7 +196,10 @@ section, footer {
 }
 .box:hover{
     color:#ff900e; 
-    background-color: #727272;  
+    background-color: #ac4040;  
+    width: 300px;
+    height: 300px;
+    transform: scale(1.5) rotate(45deg) translateX(200px); 
 }
 /* ----achievement section end----- */
 
@@ -240,6 +245,7 @@ section, footer {
 }
 .sponsor_company{
     display: flex;
+    justify-content: space-around;
     gap:60px;
 }
 
