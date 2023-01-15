@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Work+Sans:ital,wght@0,500;0,700;1,600&display=swap');
+
+* {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+body {
+  width: 100vw;
+}
+.header {
+  background: rgba(255, 144, 14, 0.1);
+  margin-bottom: 30px;
+}
+.nav,
+.banner {
+  margin: 0px 150px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 20px;
+}
+.header-ul {
+  display: flex;
+  gap: 20px;
+}
+.header-ul,
+.heder-li {
+  list-style: none;
+}
+.header-li a {
+  text-decoration: none;
+}
+/* nav end------------------------ */
+
+.banner {
+  text-align: center;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.smaller_text {
+  margin: 0px 200px;
+  color: #727272;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.primary-btn {
+  width: 180px;
+  height: 50px;
+  background: #ff900e;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+/* header end----------------------------> */
+section, footer {
+  margin: 0px 150px;
+  margin-bottom: 30px;
+}
+
+/* section of featured start---------------------------- */
+.featured {
+  display: flex;
+  margin: 0px 150px;
+  margin-bottom: 30px;
+}
+.featured .featured_img {
+  width: 60%;
+  height: 40%;
+}
+.feature_img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.features-title {
+  width: 40%;
+  height: 40%;
+  margin-left: 40px;
+  text-align: justify;
+  position: relative;
+  top: 250px;
+}
+.features-title small {
+  margin: 0px;
+}
+.features-title > * {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.heading-color {
+  color: #727272;
+}
+.primary-color {
+  color: #ff900e;
+}
+/* section of featured end---------------------------- */
+
+/* lovely section start----------------------------- */
+.lovely_features {
+  display: flex;
+  margin: 0px 150px;
+  gap: 20px;
+}
+.lovely_features_title {
+  width: 50%;
+  text-align: justify;
+}
+.lovely_features_title > * {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.lovely_features_title h2 {
+  border-left: 2px solid #ff900e;
+  border-width: 5px;
+  padding: 5px;
+}
+.lovely_features_title small {
+  margin: 0px;
+}
+.features_items {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: calc(12%);
+}
+.items_list {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 10px 30px 15px rgba(148, 118, 83, 0.1);
+}
+.items_list > * {
+  color: #545050;
+}
+.lovely_features_img {
+  width: 50%;
+}
+.lovely_features_img button {
+  width: 200px;
+  height: 100px;
+  border-radius: 8px;
+  font-size: 25px;
+  position: relative;
+  bottom: 80px;
+  right: 28px;
+}
+
+/* lovely section end --------------------------- */
+.fact p {
+  width: 40%;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+/* fact section end------------------------------ */
+
+/* achievement section start----
+-------------------------------- */
+.achievement {
+  display: flex;
+  justify-content: space-around;
+}
+.box{
+  width: 241.83px;
+  height: 241.83px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  text-align: center;
+  color:#727272
+}
+.box img {
+  width: 45.22px;
+  height: 45.22px;
+  margin-top:30%;  
+}
+.number-bold{
+    font-size: 40px;
+    font-weight: bold;
+}
+.box:hover{
+    color:#ff900e; 
+    background-color: #727272;  
+}
+/* ----achievement section end----- */
+
+/* work section start ------------- */
+.work{
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    gap:50px; 
+}
+.work_img{
+    margin:100px;
+}
+.work_intro > *{
+    margin-top:20px; 
+    margin-bottom: 20px;
+}
+.work p{
+    margin:0px; 
+}
+.works_videos{
+    display: inline;
+    color:#ff900e; 
+}
+
+/* work section end----------- */
+
+/* sponsor section start ------------ */
+.sponsor{
+    margin-top: 100px;
+}
+.sponsor-title{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+.sponsor-title p{
+    margin:0; 
+    width: 40%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.sponsor_company{
+    display: flex;
+    gap:60px;
+}
+
+/* sponsor section end ----------------- */
+.footer{
+    text-align: center;
+    background: #dccab4;
+    height: 60px;
+}
+.footer small{
+    text-align: center;
+    position: relative;
+    top:15px; 
+}
+@media only screen and (max-width:500px){
+    body{
+        width: 100%; 
+    }
+    section, footer {
+        margin: 0px;
+        margin-bottom:0px; 
+        margin-bottom:10px;
+      }
+    .nav{
+        flex-direction: column;
+    }
+    .primary-heading{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .header-ul{
+        flex-direction: column;
+        gap:5px;
+        justify-content: center ;
+        align-items: center;
+    }
+    .banner{
+        margin-top: 30px; 
+        gap:0; 
+    }
+    .banner_heading{
+        width:450px; 
+        height:100px;
+        text-overflow: none;
+    }
+    .smaller_text{
+        width:290px;
+        height: 200px;
+        text-align: justify;
+        padding:5px; 
+    }
+    .primary-btn{
+        margin-bottom: 20px;
+    }
+    .banner img{
+        width:400px; 
+        height: 200px;
+    }
+    .featured {
+        flex-direction: column-reverse;
+        margin:0px; 
+    }
+    .feature_img{
+        grid-template-columns: repeat(1, 1fr);
+        gap:5px;
+    }
+    .features-title{
+        width: 100%;
+        height: 100%; 
+        text-align: center;
+        top: 3px;
+        right: 40px;
+    }
+    .features-title .primary-btn{
+        display: block;
+        margin-left: 136px;
+    }
+    .lovely_features{
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+    .lovely_features_title{
+        width: 100%;
+        padding : 10px;
+    }
+    .features_items{
+        gap:0; 
+    }
+    .lovely_features_img {
+        width: 100%;
+    }
+    .lovely_features_img button {
+        position: inherit;
+        margin-left:28%; 
+        margin-bottom:20px;
+    }
+    .fact{
+        margin:20px;
+    }
+    .achievement{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:5px; 
+    }
+    .work{
+        flex-direction: column;
+        gap:5px; 
+        background-color: #57524c;
+        color:white; 
+    }
+    .sponsor-title .smaller_text{
+        width:350px; 
+        height: 70px;
+        text-align:center; 
+        line-height: 20px; 
+    }
+    .sponsor_company{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer{
+        height: 72px;
+        margin-bottom: 0;
+    }
+    .footer .smaller_text{
+        margin:0; 
+    } 
+}
