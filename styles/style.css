@@ -121,6 +121,7 @@ section, footer {
 .lovely_features_title {
   width: 50%;
   text-align: justify;
+
 }
 .lovely_features_title > * {
   margin-bottom: 20px;
@@ -135,19 +136,26 @@ section, footer {
   margin: 0px;
 }
 .features_items {
+  margin-top:100px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: calc(80%);
+  gap:50px; 
 }
 .items_list {
   background-color: white;
   padding: 15px;
   border-radius: 5px;
   box-shadow: 10px 30px 15px rgba(148, 118, 83, 0.1);
+  width: 100%;
+  height: 400px;
 }
 .items_list > * {
   color: #545050;
+  font-size: 40px;
+  margin-top:15px; 
+  padding : 5px; 
 }
+
 .lovely_features_img {
   width: 50%;
 }
