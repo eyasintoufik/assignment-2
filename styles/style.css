@@ -185,6 +185,13 @@ section, footer {
   color:#727272; 
   transition: width 2s, height 2s, transform 5s;
 }
+.box:hover{
+  color:#ff900e; 
+  background-color: #ac4040;  
+  width: 300px;
+  height: 300px;
+  transform: scale(1.2); 
+}
 .box img {
   width: 45.22px;
   height: 45.22px;
@@ -193,13 +200,6 @@ section, footer {
 .number-bold{
     font-size: 40px;
     font-weight: bold;
-}
-.box:hover{
-    color:#ff900e; 
-    background-color: #ac4040;  
-    width: 300px;
-    height: 300px;
-    transform: scale(1.5) rotate(45deg) translateX(200px); 
 }
 /* ----achievement section end----- */
 
